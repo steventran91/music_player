@@ -5,4 +5,4 @@ from django.http import HttpResponse
 # Write endpoint /hello, /hi 
 
 def main(request):
-    return HttpResponse("Hello")
+    return HttpResponse("<h1>hello<h1>")
